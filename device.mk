@@ -40,5 +40,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     init.zuk.rc
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
