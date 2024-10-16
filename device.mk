@@ -41,5 +41,9 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.zuk.rc
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.legacy
+
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
